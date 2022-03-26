@@ -1,0 +1,15 @@
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\burger-shop.csproj.AssemblyReference.cache
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\burger-shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\burger-shop.AssemblyInfoInputs.cache
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\burger-shop.AssemblyInfo.cs
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\burger-shop.csproj.CoreCompileInputs.cache
+C:\Users\x-bab\Desktop\burger-shop\bin\Debug\net6.0\burger-shop.exe
+C:\Users\x-bab\Desktop\burger-shop\bin\Debug\net6.0\burger-shop.deps.json
+C:\Users\x-bab\Desktop\burger-shop\bin\Debug\net6.0\burger-shop.runtimeconfig.json
+C:\Users\x-bab\Desktop\burger-shop\bin\Debug\net6.0\burger-shop.dll
+C:\Users\x-bab\Desktop\burger-shop\bin\Debug\net6.0\burger-shop.pdb
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\burger-shop.dll
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\refint\burger-shop.dll
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\burger-shop.pdb
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\burger-shop.genruntimeconfig.cache
+C:\Users\x-bab\Desktop\burger-shop\obj\Debug\net6.0\ref\burger-shop.dll

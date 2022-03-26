@@ -15,10 +15,28 @@ public class Payments {
                         Console.WriteLine("Enter your credit card number:");
                         string creditString = Console.ReadLine();
                         Console.WriteLine("Please confirm payment. Is this correct? [Y]");
+                        Console.WriteLine("If you would like to pay with another method of payment. [B]");
                         string confirmCreditPayment = Console.ReadLine();
                         if (!string.IsNullOrWhiteSpace(confirmCreditPayment) &&
                             confirmCreditPayment == "Y") {
                                 Console.WriteLine("Thank you for your payment. Your order is being processed. We will notify when your order is ready.");
+                            }
+                        if (!string.IsNullOrWhiteSpace(confirmCreditPayment) &&
+                            confirmCreditPayment == "B") {
+                                Console.WriteLine("Would you like to pay with a debit card?");
+                                string payWithDebit = Console.ReadLine();
+                                if (!string.IsNullOrWhiteSpace(payWithDebit) &&
+                                payWithDebit == "Y") {
+                                    Console.WriteLine("Enter your debit card number:");
+                                    string debitPayment = Console.ReadLine();
+
+                                    Console.WriteLine("Please confirm payment. Is this correct? [Y]");
+                                    string confirmDebitPayment = Console.ReadLine();
+                                    if (!string.IsNullOrWhiteSpace(confirmDebitPayment) &&
+                                        confirmDebitPayment == "Y") {
+                                        Console.WriteLine("Thank you for your payment. Your order is being processed. We will notify when your order is ready.");
+                                    }
+                                }
                             }
                 //debit card
                 } else if (!string.IsNullOrWhiteSpace(payment) && 

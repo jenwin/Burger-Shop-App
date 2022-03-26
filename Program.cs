@@ -12,7 +12,7 @@ namespace LoginProgram {
                 Console.WriteLine("Enter your password");
                 string password = Console.ReadLine();
                 if (!string.IsNullOrWhiteSpace(password)) {
-                    Console.WriteLine("Password correct.");
+                    Console.WriteLine("Logged in!");
                 } else if ((string.IsNullOrWhiteSpace(password))) {
                     Console.WriteLine("Password incorrect");
                 }

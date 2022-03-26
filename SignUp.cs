@@ -2,25 +2,23 @@ using System;
 public class SignUp {
     //create signup constructor
     public SignUp() {
-        //user chooses username and password
-        Console.WriteLine("Choose a Username.");
+        //signing up, choose a username
+        Console.WriteLine("Choose a Username:");
         string newUserName = Console.ReadLine();
         if (!string.IsNullOrWhiteSpace(newUserName)) {
-            Console.WriteLine("Username created.");
+            Console.WriteLine("Your username has been created.");
         }
-        Console.WriteLine("Choose a Password.");
+        Console.WriteLine("Choose a Password:");
         string newPassword = Console.ReadLine();
         if (!string.IsNullOrWhiteSpace(newPassword)) {
-            Console.WriteLine("Password created.");
+            Console.WriteLine("Your password has been created.");
 
         //check if the user signed up or not
         if ((!string.IsNullOrWhiteSpace(newUserName)) &&
             (!string.IsNullOrWhiteSpace(newPassword))) {
             Console.WriteLine("Thank you for signing up!");
-            //logged in!
-            //taking orders!
+            //user is logged in, taking orders and payments!
             Orders order = new Orders();
-            //taking payments
             Payments payment = new Payments();
             }
         } else {

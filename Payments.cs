@@ -1,5 +1,4 @@
 using System;
-
 public class Payments {
     public Payments() {
         Console.WriteLine("Is this correct? [Y] or [N]");

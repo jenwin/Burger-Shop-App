@@ -1,23 +1,33 @@
 using System;
 
 public class Dashboard {
-
-    // //data members
-    // public string tomato;
-    // public string lettuce;
-    // public string cheese;
-    // public string sauce;
-    // public string bbq;
-    // public string ketchup;
-    // //create dashboard constructor
-    // public Dashboard(string tomato, string cheese, string lettuce, string sauce, 
-    // string bbq, string ketchup) {
-    //     this.tomato = tomato;
-    //     this.cheese = cheese;
-    //     this.lettuce = lettuce;
-    //     this.sauce = sauce;
-    //     this.bbq = bbq;
-    //     this.ketchup = ketchup;
-    // }
-    
+    public Dashboard() {
+        Console.WriteLine("Can I take your order? [Y] or [N]");
+            string takeOrder = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(takeOrder)) {
+                Console.WriteLine("Would you like tomatoes? [Y] or [N]");
+                string tomato = Console.ReadLine();
+                Console.WriteLine("Would you like lettuce? [Y] or [N]");
+                string lettuce = Console.ReadLine();
+                Console.WriteLine("Would you like cheese? [Y] or [N]");
+                string cheese = Console.ReadLine();
+                Console.WriteLine("Would you like tomatoes? [Y] or [N]");
+                string tomatoes = Console.ReadLine();
+                Console.WriteLine("Would you like sauce? [Y] or [N]");
+                string sauce = Console.ReadLine();
+                Console.WriteLine("Would you like bbq? [Y] or [N]");
+                string bbq = Console.ReadLine();
+                Console.WriteLine("Would you like ketchup? [Y] or [N]");
+                string ketchup = Console.ReadLine();
+                Console.WriteLine("Please confirm your order.");
+                // Dashboard order = new Dashboard("Y", "Y", "Y", "Y", "Y", "Y");
+                Console.WriteLine(
+                    "Tomato: " + tomato + " " + 
+                    "Lettuce: " + lettuce + " " + 
+                    "Cheese: " + cheese + " " +
+                    "Sauce: " + sauce + " " + 
+                    "Bbq Sauce: " + bbq + " " + 
+                    "Ketchup Sauce: " + ketchup);
+            }
+    }
 }

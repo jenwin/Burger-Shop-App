@@ -15,7 +15,7 @@ namespace LoginProgram {
                     Console.WriteLine("Logged in!");
                     
                     //taking orders!
-                    Orders dashboardObj = new Orders();
+                    Orders order = new Orders();
                     Console.WriteLine("Is this correct? [Y] or [N]");
                     string confirm = Console.ReadLine();
 

@@ -18,6 +18,9 @@ public class SignUp {
         if ((!string.IsNullOrWhiteSpace(newUserName)) &&
             (!string.IsNullOrWhiteSpace(newPassword))) {
             Console.WriteLine("Thank you for signing up!");
+
+            //logged in!
+            Dashboard dashboardObj = new Dashboard();
         } else {
             Console.WriteLine("Sign Up!");
         }

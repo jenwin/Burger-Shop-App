@@ -13,6 +13,7 @@ namespace LoginProgram {
                 string password = Console.ReadLine();
                 if (!string.IsNullOrWhiteSpace(password)) {
                     Console.WriteLine("Logged in!");
+                    Dashboard dashboardObj = new Dashboard();
                 } else if ((string.IsNullOrWhiteSpace(password))) {
                     Console.WriteLine("Password incorrect");
                 }

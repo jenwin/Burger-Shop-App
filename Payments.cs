@@ -21,6 +21,7 @@ public class Payments {
                             confirmCreditPayment == "Y") {
                                 Console.WriteLine("Thank you for your payment. Your order is being processed. We will notify when your order is ready.");
                             }
+                        //if customer chooses to pay with debit card after choosing credit first
                         if (!string.IsNullOrWhiteSpace(confirmCreditPayment) &&
                             confirmCreditPayment == "B") {
                                 Console.WriteLine("Would you like to pay with a debit card?");

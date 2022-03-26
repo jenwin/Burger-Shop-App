@@ -1,10 +1,10 @@
 using System;
-
 public class Orders {
     public Orders() {
+        //taking orders
         Console.WriteLine("Can I take your order? [Y] or [N]");
-            string takeOrder = Console.ReadLine();
-            if (!string.IsNullOrWhiteSpace(takeOrder)) {
+            string customerOrder = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(customerOrder)) {
                 Console.WriteLine("Would you like tomatoes? [Y] or [N]");
                 string tomato = Console.ReadLine();
                 Console.WriteLine("Would you like lettuce? [Y] or [N]");
@@ -20,7 +20,7 @@ public class Orders {
                 Console.WriteLine("Would you like ketchup? [Y] or [N]");
                 string ketchup = Console.ReadLine();
                 Console.WriteLine("Please confirm your order.");
-                // Orders order = new Orders("Y", "Y", "Y", "Y", "Y", "Y");
+                //prints out customer order
                 Console.WriteLine(
                     "Tomato: " + tomato + " " + 
                     "Lettuce: " + lettuce + " " + 

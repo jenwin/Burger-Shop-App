@@ -4,7 +4,8 @@ public class Orders {
         //taking orders
         Console.WriteLine("Can I take your order? [Y] or [N]");
             string customerOrder = Console.ReadLine();
-            if (!string.IsNullOrWhiteSpace(customerOrder)) {
+            if (!string.IsNullOrWhiteSpace(customerOrder) &&
+                customerOrder == "Y") {
                 Console.WriteLine("Would you like tomatoes? [Y] or [N]");
                 string tomato = Console.ReadLine();
                 Console.WriteLine("Would you like lettuce? [Y] or [N]");

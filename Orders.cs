@@ -11,8 +11,6 @@ public class Orders {
                 string lettuce = Console.ReadLine();
                 Console.WriteLine("Would you like cheese? [Y] or [N]");
                 string cheese = Console.ReadLine();
-                Console.WriteLine("Would you like tomatoes? [Y] or [N]");
-                string tomatoes = Console.ReadLine();
                 Console.WriteLine("Would you like sauce? [Y] or [N]");
                 string sauce = Console.ReadLine();
                 Console.WriteLine("Would you like bbq? [Y] or [N]");

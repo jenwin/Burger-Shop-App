@@ -1,7 +1,7 @@
 using System;
 
-public class Dashboard {
-    public Dashboard() {
+public class Orders {
+    public Orders() {
         Console.WriteLine("Can I take your order? [Y] or [N]");
             string takeOrder = Console.ReadLine();
             if (!string.IsNullOrWhiteSpace(takeOrder)) {
@@ -20,7 +20,7 @@ public class Dashboard {
                 Console.WriteLine("Would you like ketchup? [Y] or [N]");
                 string ketchup = Console.ReadLine();
                 Console.WriteLine("Please confirm your order.");
-                // Dashboard order = new Dashboard("Y", "Y", "Y", "Y", "Y", "Y");
+                // Orders order = new Orders("Y", "Y", "Y", "Y", "Y", "Y");
                 Console.WriteLine(
                     "Tomato: " + tomato + " " + 
                     "Lettuce: " + lettuce + " " + 

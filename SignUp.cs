@@ -19,7 +19,7 @@ public class SignUp {
             Console.WriteLine("Thank you for signing up!");
             //logged in!
             //taking orders!
-            Dashboard dashboardObj = new Dashboard();
+            Orders dashboardObj = new Orders();
                 Console.WriteLine("Is this correct? [Y] or [N]");
                 string confirm = Console.ReadLine();
                 if (!string.IsNullOrWhiteSpace(confirm) && confirm == "Y") {

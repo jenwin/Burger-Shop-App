@@ -10,7 +10,7 @@ public class Payments {
         }
         //Customer payment choice: credit card or debit card
         if (!string.IsNullOrWhiteSpace(confirm) && confirm == "Y") {
-                CreditCard credit = new CreditCard();
+            CreditCard credit = new CreditCard();
         }
     }
 }

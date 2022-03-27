@@ -24,7 +24,7 @@ public class CreditCard {
 
             //[C] option, if customer wants to go back to payment options
             if (!string.IsNullOrWhiteSpace(confirmCreditPayment) && confirmCreditPayment == "C") {
-                OptionC c = new OptionC();
+                BackToPaymentOptions paymentOptions = new BackToPaymentOptions();
             }
         }
 

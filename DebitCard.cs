@@ -9,7 +9,7 @@ public class DebitCard {
 
         Console.WriteLine("Enter your debit card number:");
         string debitString = Console.ReadLine();
-s
+
         //[Y] to confirm debit payment
         //[C] goes back to other payment options
         Console.WriteLine("Please confirm. Is this correct? [Y]");
@@ -21,7 +21,7 @@ s
 
         //[C] goes back to other payment options
         if (!string.IsNullOrWhiteSpace(confirmDebitPayment) && confirmDebitPayment == "C") {
-            OptionC c = new OptionC();
+            BackToPaymentOptions paymentOptions = new BackToPaymentOptions();
         }
 
         //[B] goes back to debit payment option

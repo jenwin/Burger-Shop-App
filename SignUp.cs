@@ -13,9 +13,8 @@ public class SignUp {
         if ((!string.IsNullOrWhiteSpace(newUserName)) &&
             (!string.IsNullOrWhiteSpace(newPassword))) {
             Console.WriteLine("Thank you for signing up!");
-            //user is logged in, taking orders and payments!
+            //user is logged in, taking orders!
             Orders order = new Orders();
-            Payments payment = new Payments();
             } else {
             Console.WriteLine("Sign Up!");
         }

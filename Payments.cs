@@ -2,7 +2,6 @@ using System;
 public class Payments {
     public Payments() {
         //taking order payment
-        Console.WriteLine("Is this correct? [Y] or [N]");
         string confirm = Console.ReadLine();
 
         //if order is not correct, allow customer to reorder

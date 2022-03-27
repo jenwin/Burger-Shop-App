@@ -3,7 +3,7 @@ public class Orders {
     public Orders() {
         //taking orders
         Console.WriteLine("Can I take your order? [Y] or [N]");
-            string customerOrder = Console.ReadLine();
+        string customerOrder = Console.ReadLine();
             if (!string.IsNullOrWhiteSpace(customerOrder) &&
                 customerOrder == "Y") {
                 Console.WriteLine("Would you like tomatoes? [Y] or [N]");
@@ -28,7 +28,15 @@ public class Orders {
                     // "Bbq Sauce: " + bbq + " " + 
                     // "Ketchup Sauce: " + ketchup);
                 //take customer payment
+                Console.WriteLine("Is this correct? [Y] or [N]");
                 Payments payment = new Payments();
-        }
+            }
+
+            do { 
+                if (!string.IsNullOrWhiteSpace(customerOrder) &&
+                customerOrder == "N") {
+                    Console.WriteLine("Goodbye.");
+                }
+            } while (false);
     }
 }

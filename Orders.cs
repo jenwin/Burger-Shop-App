@@ -32,6 +32,7 @@ public class Orders {
                 Payments payment = new Payments();
             }
 
+            //end of order if no order is taken
             do { 
                 if (!string.IsNullOrWhiteSpace(customerOrder) &&
                 customerOrder == "N") {

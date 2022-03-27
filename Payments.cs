@@ -3,9 +3,14 @@ public class Payments {
     public Payments() {
         //taking order payment
         Console.WriteLine("Is this correct? [Y] or [N]");
-            string confirm = Console.ReadLine();
-            //credit card or debit card
-            if (!string.IsNullOrWhiteSpace(confirm) && confirm == "Y") {
+        string confirm = Console.ReadLine();
+
+        //if order is not correct, allow customer to reorder
+        if (!string.IsNullOrWhiteSpace(confirm) && confirm == "N") {
+            Orders order = new Orders();
+        }
+        //Customer payment choice: credit card or debit card
+        if (!string.IsNullOrWhiteSpace(confirm) && confirm == "Y") {
                 Console.WriteLine("How would you like to pay?");
                 Console.WriteLine("Credit Card [A] or Debit Card [B]");
                 string payment = Console.ReadLine();

@@ -3,16 +3,12 @@ using System;
 public class DebitCard {
     public DebitCard() {
         //debit card payment
-        // Console.WriteLine("How would you like to pay?");
-        // Console.WriteLine("Credit Card [A] or Debit Card [B]");
-        string payment = Console.ReadLine();
-
         Console.WriteLine("Enter your debit card number:");
-        string debitString = Console.ReadLine();
+        string payment = Console.ReadLine();
 
         //[Y] to confirm debit payment
         //[C] goes back to other payment options
-        Console.WriteLine("Please confirm. Is this correct? [Y]");
+        Console.WriteLine("Is this correct? [Y]");
         Console.WriteLine("Back to payment options. [C]");
         string confirmDebitPayment = Console.ReadLine();
         if (!string.IsNullOrWhiteSpace(confirmDebitPayment) && confirmDebitPayment == "Y") {

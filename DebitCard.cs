@@ -1,5 +1,4 @@
 using System;
-
 public class DebitCard {
     public DebitCard() {
         //debit card payment
@@ -28,9 +27,9 @@ public class DebitCard {
             //[Y] asks custumer to confirm debit payment
             Console.WriteLine("Please confirm payment. Is this correct? [Y]");
             string newPaymentConfirm = Console.ReadLine();
-                if (!string.IsNullOrWhiteSpace(newPaymentConfirm) && newPaymentConfirm == "Y") {
-                    Console.WriteLine("Thank you for your payment. Your order is being processed. We will notify when your order is ready.");
-                }
+            if (!string.IsNullOrWhiteSpace(newPaymentConfirm) && newPaymentConfirm == "Y") {
+                Console.WriteLine("Thank you for your payment. Your order is being processed. We will notify when your order is ready.");
+            }
         }
 
         //[A] for credit card payment option

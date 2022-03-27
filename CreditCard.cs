@@ -1,5 +1,4 @@
 using System;
-
 public class CreditCard {
     public CreditCard() {
         //when customer order is correct, ask how they would like to pay
@@ -22,7 +21,7 @@ public class CreditCard {
 
         //[B] if customer chooses debit payment option
          if (!string.IsNullOrWhiteSpace(payment) && payment == "B") {
-                DebitCard debit = new DebitCard();
+            DebitCard debit = new DebitCard();
         }
     }
 }

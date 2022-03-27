@@ -8,7 +8,7 @@ public class BackToPaymentOptions {
         //[A] for credit card payment option
         if (!string.IsNullOrWhiteSpace(payment) && payment == "A") {
             CreditCard credit = new CreditCard();
-            }
+        }
 
         //[B] for debit card payment option
         if (!string.IsNullOrWhiteSpace(payment) && payment == "B") {

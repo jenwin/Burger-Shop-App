@@ -7,7 +7,7 @@ public class Payments {
         //customer payment choices: credit card or debit card
         //if customer order is correct, ask customer how they would like to pay
         if (!string.IsNullOrWhiteSpace(confirm) && confirm == "Y") {
-            CreditCard credit = new CreditCard();
+            BackToPaymentOptions paymentOptions = new BackToPaymentOptions();
         }
 
         //if order is incorrect, allow customer to reorder

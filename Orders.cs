@@ -34,11 +34,9 @@ public class Orders {
             }
 
             //end of order if no order is taken
-            do { 
-                if (!string.IsNullOrWhiteSpace(customerOrder) &&
+            if (!string.IsNullOrWhiteSpace(customerOrder) &&
                 customerOrder == "N") {
                     Console.WriteLine("Goodbye.");
-                }
-            } while (false);
+             }
     }
 }

@@ -27,7 +27,8 @@ public class Orders {
                     // "Sauce: " + sauce + " " + 
                     // "Bbq Sauce: " + bbq + " " + 
                     // "Ketchup Sauce: " + ketchup);
-                //take customer payment
+                //[Y] if the customer order is correct
+                //[N] allows customer to reorder
                 Console.WriteLine("Is this correct? [Y] or [N]");
                 Payments payment = new Payments();
             }

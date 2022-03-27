@@ -4,13 +4,15 @@ public class Payments {
         //taking order payment
         string confirm = Console.ReadLine();
 
-        //if order is not correct, allow customer to reorder
-        if (!string.IsNullOrWhiteSpace(confirm) && confirm == "N") {
-            Orders order = new Orders();
-        }
-        //Customer payment choice: credit card or debit card
+        //customer payment choices: credit card or debit card
+        //if customer order is correct, ask customer how they would like to pay
         if (!string.IsNullOrWhiteSpace(confirm) && confirm == "Y") {
             CreditCard credit = new CreditCard();
+        }
+
+        //if order is incorrect, allow customer to reorder
+        if (!string.IsNullOrWhiteSpace(confirm) && confirm == "N") {
+            Orders order = new Orders();
         }
     }
 }

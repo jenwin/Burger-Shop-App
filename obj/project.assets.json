@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\x-bab\\Desktop\\burger-shop\\burger-shop.csproj",
+      "projectUniqueName": "C:\\Users\\x-bab\\OneDrive\\Desktop\\projects\\burger-shop-app-csharp\\burger-shop.csproj",
       "projectName": "burger-shop",
-      "projectPath": "C:\\Users\\x-bab\\Desktop\\burger-shop\\burger-shop.csproj",
+      "projectPath": "C:\\Users\\x-bab\\OneDrive\\Desktop\\projects\\burger-shop-app-csharp\\burger-shop.csproj",
       "packagesPath": "C:\\Users\\x-bab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\x-bab\\Desktop\\burger-shop\\obj\\",
+      "outputPath": "C:\\Users\\x-bab\\OneDrive\\Desktop\\projects\\burger-shop-app-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\x-bab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -49,16 +49,35 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

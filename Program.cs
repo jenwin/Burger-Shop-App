@@ -1,4 +1,4 @@
-﻿using System; // using sytem library in project, Console class or the WriteLine function/method
+﻿using System; // using system library in project, Console class or the WriteLine function/method
 
 namespace LoginProgram {
     class User {

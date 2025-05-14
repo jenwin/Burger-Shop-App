@@ -2,7 +2,7 @@ using System;
 public class Payments {
     public Payments() {
         //taking order payment
-        string confirm = Console.ReadLine();
+        string? confirm = Console.ReadLine();
 
         //customer payment choices: credit card or debit card
         //if customer order is correct, ask customer how they would like to pay

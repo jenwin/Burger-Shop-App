@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O35LsTBoE4j2YNifo9q5FtVL+eIkX7tQrFLZT8W+zOd/DBUIwVgDssDbah9KP4f6bSQWmdMi+gUWog/l8Nl9rQ==",
+  "dgSpecHash": "rUgv4XijNw6pqqlquhPDYMpIT12WhOKBxnb0aclDebXu7Dn3dvwuVXvm2+hzQURFghW726D8c9dyUL9wqRmk9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\x-bab\\OneDrive\\Desktop\\projects\\burger-shop-app-csharp\\burger-shop.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\x-bab\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\x-bab\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\x-bab\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\x-bab\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\x-bab\\Desktop\\burger-shop-app-csharp\\burger-shop.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

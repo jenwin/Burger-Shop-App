@@ -4,13 +4,13 @@ namespace LoginProgram {
     class User {
         static void Main(string[] args) {
             Console.WriteLine("Enter username:");
-            string name = Console.ReadLine();
+            string? name = Console.ReadLine();
 
             //checks to see if the name is not null or null
             if (!string.IsNullOrWhiteSpace(name)) {
                 //checks to see if the password is not null or null
                 Console.WriteLine("Enter your password:");
-                string password = Console.ReadLine();
+                string? password = Console.ReadLine();
                 if (!string.IsNullOrWhiteSpace(password)) {
                     Console.WriteLine("You are logged in!");    
                     //taking orders!

@@ -4,10 +4,10 @@ public class SignUp {
     public SignUp() {
         //signing up, choose a username
         Console.WriteLine("Choose a Username:");
-        string newUserName = Console.ReadLine();
+        string? newUserName = Console.ReadLine() ?? string.Empty;
 
         Console.WriteLine("Choose a Password:");
-        string newPassword = Console.ReadLine();
+        string? newPassword = Console.ReadLine() ?? string.Empty;
 
         //check if the user signed up or not
         if ((!string.IsNullOrWhiteSpace(newUserName)) &&

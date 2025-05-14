@@ -14,9 +14,9 @@ namespace LoginProgram {
                 if (!string.IsNullOrWhiteSpace(password)) {
                     Console.WriteLine("You are logged in!");    
                     //taking orders!
-                    Orders order = new Orders();
+                    Orders order = new();
                     //taking payments
-                    Payments payment = new Payments();
+                    Payments payment = new();
                 } else if ((string.IsNullOrWhiteSpace(password))) {
                     Console.WriteLine("Incorrect Password.");
                 }
@@ -24,7 +24,7 @@ namespace LoginProgram {
                 if (name != null) {
                     Console.WriteLine("No Account? Signup here.");
                     //user signup page
-                    SignUp signUpObj = new SignUp();
+                    SignUp signUpObj = new();
                 }
             }
         }

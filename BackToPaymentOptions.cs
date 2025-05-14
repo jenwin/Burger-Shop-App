@@ -7,12 +7,12 @@ public class BackToPaymentOptions {
 
         //[A] for credit card payment option
         if (!string.IsNullOrWhiteSpace(payment) && payment == "A") {
-            CreditCard credit = new CreditCard();
+            CreditCard credit = new();
         }
 
         //[B] for debit card payment option
         if (!string.IsNullOrWhiteSpace(payment) && payment == "B") {
-            DebitCard debit = new DebitCard();
+            DebitCard debit = new();
         }
     }
 }

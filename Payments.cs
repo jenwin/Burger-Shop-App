@@ -7,12 +7,12 @@ public class Payments {
         //customer payment choices: credit card or debit card
         //if customer order is correct, ask customer how they would like to pay
         if (!string.IsNullOrWhiteSpace(confirm) && confirm == "Y") {
-            BackToPaymentOptions paymentOptions = new BackToPaymentOptions();
+            BackToPaymentOptions paymentOptions = new();
         }
 
         //if order is incorrect, allow customer to reorder
         if (!string.IsNullOrWhiteSpace(confirm) && confirm == "N") {
-            Orders order = new Orders();
+            Orders order = new();
         }
     }
 }

@@ -16,7 +16,7 @@ public class DebitCard {
 
         //[C] goes back to other payment options
         if (!string.IsNullOrWhiteSpace(confirmDebitPayment) && confirmDebitPayment == "C") {
-            BackToPaymentOptions paymentOptions = new BackToPaymentOptions();
+            BackToPaymentOptions paymentOptions = new();
         }
 
         //[B] goes back to debit payment option
@@ -34,7 +34,7 @@ public class DebitCard {
 
         //[A] for credit card payment option
         if (!string.IsNullOrEmpty(payment) && payment == "A") {
-            CreditCard credit = new CreditCard();
+            CreditCard credit = new();
         }
     }
 }

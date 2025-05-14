@@ -29,7 +29,7 @@ public class Orders {
                 //[Y] if the customer order is correct
                 //[N] allows customer to reorder
                 Console.WriteLine("Is this correct? [Y] or [N]");
-                Payments payment = new Payments();
+                Payments payment = new();
         }
 
         //end of order if no order is taken

@@ -1,5 +1,9 @@
 # Burger Shop
 
+## Features
+- Runs directly in the terminal
+- Simple and lightweight
+
 ## How to Start
 - Clone or Download
 

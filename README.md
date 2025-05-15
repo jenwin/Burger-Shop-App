@@ -1,4 +1,5 @@
 # Burger Shop
+A simple terminal-based .NET application for taking customer orders interactively through terminal prompts, simulating basic point-of-sale (POS) functionality.
 
 ## Features
 - Runs directly in the terminal

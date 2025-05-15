@@ -9,8 +9,11 @@ A simple terminal-based .NET application for taking customer orders interactivel
 - .NET SDK installed
 - Recommended version: .NET SDK 7.0.x
 
-## How to Start
+## Installation
 - Clone or Download
+
+## How to Start 
+- dotnet run
 
 ## License
 GNU General Public License v3.0

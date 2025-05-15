@@ -17,7 +17,7 @@ A simple terminal-based .NET application for taking customer orders interactivel
 - Clone or Download
 
 ## How to Start 
-- dotnet run
+- `dotnet run`
 
 ## License
 GNU General Public License v3.0

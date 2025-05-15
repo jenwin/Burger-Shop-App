@@ -1,4 +1,4 @@
-# Burger Shop App
+# Burger Shop
 
 ## How to Start
 - Clone or Download

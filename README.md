@@ -5,6 +5,10 @@ A simple terminal-based .NET application for taking customer orders interactivel
 - Runs directly in the terminal
 - Simple and lightweight
 
+## Technologies
+- .NET SDK
+- C#
+
 ## Requirements
 - .NET SDK installed
 - Recommended version: .NET SDK 7.0.x
